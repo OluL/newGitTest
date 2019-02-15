@@ -64,12 +64,17 @@
     
 }
 .dropdown-menu{
-    background:linear-gradient(black, white);
-    
+    background: white;
+    /* padding: 10px;   */
 }
 .dropdown-item{
-    color: white;
+    color: royalblue;
     
+}
+.dropdown-item:hover{
+    display: block;
+    color: white;
+    background: royalblue;
 }
 
 .navbar ul li{
