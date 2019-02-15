@@ -1,0 +1,150 @@
+#filler{
+       background:linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.2)), url(../img/bck.jpeg)center/cover fixed no-repeat;
+       height: 130vh;
+       background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+    
+}
+#header{
+   background:linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.4)); 
+   
+}
+
+#head{
+    height: 100vh;
+    /* margin-bottom: 50px; */
+}.header{
+    display: flex;
+ 
+}
+#title{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    /* margin-top: 100px; */
+    height: 80vh;
+    
+
+    
+}
+#h1f{
+    font-family: 'Roboto Slab', serif;
+    font-size: 60px;
+    color: white;
+    
+}
+
+.h{
+    
+    align-items: end;
+
+}
+.cont{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+    flex-wrap: wrap;
+    
+}
+.ha{
+
+    text-decoration: none;
+}
+/* .navbar ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: relative;
+} */
+.dropdown:hover>.dropdown-menu{
+    display: block;
+    color:royalblue;
+    
+}
+.dropdown-menu{
+    background:linear-gradient(black, white);
+    
+}
+.dropdown-item{
+    color: white;
+    
+}
+
+.navbar ul li{
+    float: left;
+    list-style: none;
+}
+
+#hr1{
+    /* border: 0; */
+    height: 0.1px;
+    background: white;
+
+    /* background-image: -webkit-linear-gradient(left, #ccc, #ccc, #ccc);
+    background-image: -moz-linear-gradient(left, #ccc, #ccc, #ccc);
+    background-image: -ms-linear-gradient(left, #ccc, #ccc, #ccc);
+    background-image: -o-linear-gradient(left, #ccc, #ccc, #ccc); */
+}
+
+#box{
+    /* height: 30vh; */
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+#inbox{
+    justify-items: center;
+    background-color: royalblue;
+    margin: 20px!important;
+    padding: 40px!important;
+    align-items: center;
+
+    
+    
+}
+}
+.title-underline{
+    width: 300px;
+    height: 2px;
+    margin: 0 auto;
+    background: blue!important; 
+}
+
+#team{
+    /* height: 100vh; */
+}
+#service{
+    padding: 20px;
+}
+
+#serv1{
+    background-color: royalblue !important; 
+   
+    color: white;
+    
+
+}
+
+#serv2{
+    display: flex;
+}
+
+#cont{
+    background-color: royalblue;
+}
+
+#footer{
+    background: #132646;
+}
+#ftbtm{
+    background-color: #0d1a2f;
+    color: white;
+}
+
+.navbar-nav.nav li a{
+    color: #fff
+}

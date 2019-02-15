@@ -1,0 +1,122 @@
+.cont{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+    flex-wrap: wrap;
+    
+}
+
+.header{
+    display: flex;
+ 
+}
+
+.h{
+    justify-content: space-around;
+}
+.ha{
+    list-style: none;
+}
+#head{
+    height: 100vh;
+    /* margin-bottom: 50px; */
+}
+.bg{
+    background:linear-gradient(rgba(0, 0, 0,.1),rgba(0, 0, 0,.1)), url('/medical/img/bck.jpeg');
+    height: 130vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    
+
+}
+#header{
+   background:linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.4)); 
+   
+}
+
+.title{
+    display: flex;
+    /* background-color: blanchedalmond; */
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    color: beige;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 100px;
+    background:linear-gradient(rgba(0,2,.4,.2),rgba(25, 26, 25, 0.2));
+}
+.h1{
+    display: flex;
+    
+}
+
+#title{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    /* margin-top: 100px; */
+    height: 80vh;
+}
+
+#hr1{
+    border: 0;
+    height: 0.5px;
+    background: white;
+
+    background-image: -webkit-linear-gradient(left, #ccc, #ccc, #ccc);
+    background-image: -moz-linear-gradient(left, #ccc, #ccc, #ccc);
+    background-image: -ms-linear-gradient(left, #ccc, #ccc, #ccc);
+    background-image: -o-linear-gradient(left, #ccc, #ccc, #ccc);
+}
+
+#box{
+    /* height: 30vh; */
+   
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+#inbox{
+    justify-items: center;
+    background-color: royalblue;
+    margin: 20px!important;
+    padding: 40px!important;
+    align-items: center;
+
+    
+    
+}
+.title-underline{
+    width: 300px;
+    height: 2px;
+    margin: 0 auto;
+    background: blue!important; 
+}
+
+#team{
+    /* height: 100vh; */
+}
+#service{
+    padding: 20px;
+}
+
+#serv1{
+    background-color: royalblue !important; 
+   
+    color: white;
+    
+
+}
+
+#serv2{
+    display: flex;
+}
+
+#cont{
+    background-color: royalblue;
+}
